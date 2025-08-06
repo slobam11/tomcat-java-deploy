@@ -31,3 +31,8 @@ cd /opt/tomcat9/bin
 wget https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war
 sudo cp sample.war /opt/tomcat9/webapps/
 
+Basic part <img width="1304" height="958" alt="image" src="https://github.com/user-attachments/assets/ce09cd53-6852-4c42-bef7-c0be0624f6e9" />
+
+
+
+
