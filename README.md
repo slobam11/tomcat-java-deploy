@@ -36,9 +36,8 @@ Basic part <img width="1304" height="958" alt="image" src="https://github.com/us
 With command systemctl status tomcat.service we are seeing if the app is running or not , i mean basic things <img width="1265" height="288" alt="image" src="https://github.com/user-attachments/assets/86b8e1ae-7d4e-4a06-9bec-0e0dc6ea4297" />
 
 
-#Author# 
-#!/bin/bash
-Slobodan Milojevic :) 
+
+
 
 
 
