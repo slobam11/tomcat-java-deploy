@@ -17,32 +17,24 @@ sudo apt install openjdk-11-jdk -y
 
 
 Check the version:
-
 java -version
 
-
 Download Apache Tomcat
-
 cd /opt
 sudo wget https://downloads.apache.org/tomcat/tomcat-10/v10.1.18/bin/apache-tomcat-10.1.18.tar.gz
 
 
 Extract the archive and rename the folder
-
 sudo tar -xvzf apache-tomcat-10.1.18.tar.gz
 sudo mv apache-tomcat-10.1.18 tomcat
 
 
 Give execute permissions to scripts
-
 sudo chmod +x /opt/tomcat/bin/*.sh
 
 
 Create a Tomcat service
-
 sudo nano /etc/systemd/system/tomcat.service
-
-
 Insert the following content:
 [Unit]
 Description=Apache Tomcat Web Application Server
@@ -84,7 +76,6 @@ http://<server-ip>:8080
 Flink is a framework for real-time data processing.
 
 Steps:
-
 Download Apache Flink
 cd /opt
 sudo wget https://dlcdn.apache.org/flink/flink-1.17.1/flink-1.17.1-bin-scala_2.12.tgz
@@ -123,5 +114,6 @@ http://<server-ip>:8081
 Stop Flink when you're done
 
 ./bin/stop-cluster.sh
+
 
 That is it ....
