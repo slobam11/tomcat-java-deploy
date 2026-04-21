@@ -1,6 +1,5 @@
 # Java Web App Deployment on Apache Tomcat (Manual)
-
-## ✅ Overview
+ Overview
 
 Simple deployment of a Java `.war` application to Apache Tomcat 9 on Ubuntu.
 
